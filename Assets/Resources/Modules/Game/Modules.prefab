@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6191926907543030485
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6191926907543030313}
+  - component: {fileID: 6191926907543030312}
+  - component: {fileID: 6191926907543030487}
+  - component: {fileID: 6191926907543030486}
+  m_Layer: 0
+  m_Name: Modules
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6191926907543030313
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6191926907543030485}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6191926907543030312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6191926907543030485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5c8f4887bda81042ba24877864b9af9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  modules:
+  - name: Main Camera
+    path: Game/Modules/Main Camera
+    parent: Environment
+    parentType: 1
+    useParentForOther: 0
+    parentForOther: Main Camera
+    guid: 9f1cfb97217610f42a06dc533530b938
+    isParentCustom: 0
+  - name: Level
+    path: Game/Modules/Level
+    parent: Environment
+    parentType: 1
+    useParentForOther: 0
+    parentForOther: Level
+    guid: 5a938ca795a14794687e398bd2027e7c
+    isParentCustom: 0
+  - name: MVC - Game
+    path: Game/Modules/MVC - Game
+    parent: Controllers
+    parentType: 1
+    useParentForOther: 0
+    parentForOther: MVC - Game
+    guid: 875dcf6431d17bd46a57281905aa134f
+    isParentCustom: 0
+  - name: MVC - Houses
+    path: Game/Modules/MVC - Houses
+    parent: Controllers
+    parentType: 1
+    useParentForOther: 0
+    parentForOther: MVC - Houses
+    guid: 684f47f5de714a949a8d5a875a9896ac
+    isParentCustom: 0
+  - name: UI
+    path: Game/Modules/UI/Modules
+    parent: UI/Canvas
+    parentType: 1
+    useParentForOther: 0
+    parentForOther: Modules
+    guid: 4dec331fb39f5a841a46eb5e17878d7b
+    isParentCustom: 0
+--- !u!114 &6191926907543030487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6191926907543030485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86ee69f6c7657e8428804d23ce0e6ea0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6191926907543030486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6191926907543030485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cec8764c50071149b593160b1e5a621, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

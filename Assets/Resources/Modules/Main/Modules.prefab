@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7638042758381744686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7638042758381744687}
+  - component: {fileID: 7638042758381744690}
+  - component: {fileID: 7638042758381744685}
+  - component: {fileID: 7638042758381744684}
+  m_Layer: 0
+  m_Name: Modules
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7638042758381744687
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7638042758381744686}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7638042758381744690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7638042758381744686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5c8f4887bda81042ba24877864b9af9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  modules:
+  - name: Environment
+    path: Main/Modules/Environment
+    parent: 
+    parentType: 0
+    useParentForOther: 1
+    parentForOther: Environment
+    guid: 1f7d130ebeeb3a548bf442ffa80784c7
+    isParentCustom: 0
+  - name: UI
+    path: Main/Modules/UI
+    parent: 
+    parentType: 0
+    useParentForOther: 1
+    parentForOther: UI/Canvas
+    guid: 77441cafee166fa48b00d70f1d991a9a
+    isParentCustom: 0
+  - name: Data
+    path: Main/Modules/Data
+    parent: 
+    parentType: 0
+    useParentForOther: 1
+    parentForOther: Data
+    guid: 4d22fc73054fddc42815501cc0340b91
+    isParentCustom: 0
+  - name: Controllers
+    path: Main/Modules/Controllers
+    parent: 
+    parentType: 0
+    useParentForOther: 1
+    parentForOther: Controllers
+    guid: a9033856ce7f2354eb4c6c6bed1b1382
+    isParentCustom: 0
+  - name: Audio
+    path: Main/Modules/Audio
+    parent: 
+    parentType: 0
+    useParentForOther: 1
+    parentForOther: Audio
+    guid: 8323136fda790a24897090844f39dae9
+    isParentCustom: 0
+--- !u!114 &7638042758381744685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7638042758381744686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86ee69f6c7657e8428804d23ce0e6ea0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7638042758381744684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7638042758381744686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cec8764c50071149b593160b1e5a621, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
